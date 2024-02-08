@@ -1,0 +1,19 @@
+.wrapper-private {
+  background-color: green;
+  height: 100vh;
+  display: grid;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  place-self: center;
+}/*# sourceMappingURL=privateLayout.css.map */

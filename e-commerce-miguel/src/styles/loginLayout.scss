@@ -1,0 +1,57 @@
+// PADDING 
+$spacing-s: .5rem;
+$spacing-m: .8rem;
+$spacing-lg: 1rem;
+$spacing-xl: 1.5rem;
+
+// COLORS 
+$clr-main: rgb(65, 200, 65);
+.wrapper-login{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    z-index: 200;
+}
+
+.wrapper-login{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+
+.modal-product{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.form-container{
+    grid-column: 2/3;
+    display: grid;
+    height: fit-content;
+    place-self: center;
+    place-content: center;
+    padding: $spacing-lg;
+    z-index: 100;
+    .form{
+        display: grid;
+        grid-auto-flow: row;
+        margin: 2rem;
+    }
+}
+
+.modal-registration{
+    z-index: 1000;
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3rem;
+}

@@ -1,0 +1,13 @@
+.wrapper-private{
+    background-color: green;
+    height: 100vh;
+    display: grid;
+}
+ul{
+    list-style: none;
+}
+button{
+    width: fit-content;
+    height: fit-content;
+    place-self: center;
+}
